@@ -11,7 +11,7 @@ Adobe Air uygulamaları için admapi reklam platformu.
 
 Çok kolay kullanılabilir. Basit kullanım için sadece iki satır kod yazmak yeterlidir.
 
-### Interstitial (Tam sayfa) Reklam Gösterme
+#### Interstitial (Tam sayfa) Reklam Gösterme
 ```sh
 var yeniReklam:Admapi = new Admapi(stage);
 addChild(yeniReklam);
