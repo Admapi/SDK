@@ -17,4 +17,10 @@ var yeniReklam:Admapi = new Admapi(stage);
 addChild(yeniReklam);
 ```
 
-
+#### Android için application-app.xml dosyasında eklemeniz gereken izinler şunlardır.
+```sh
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+```
